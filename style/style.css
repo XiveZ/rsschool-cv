@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-top: 5%;
+    font-weight: 700;
+}
+
+h2{
+    text-align: center;
+    margin-top: 1%;
+    color: #888888;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+h3{
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.min-line{
+    height: 4px;
+    background-color: #AED0D2;
+    width: 10%;
+    margin-bottom: 16px;
+}
+
+header{
+    padding-top: 3%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    border-top-style: solid;
+    border-top-width: 24px;
+    border-color: #AED0D2;
+}
+
+.flex-container{
+    margin: 0 auto 0;
+    width: 70%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: wrap;
+    column-count: 4;
+    justify-items: center;
+    height: 700px;
+    border-top-color: #AED0D2;
+    border-top-style: solid;
+    border-top-width: 4px;
+}
+
+.about, .contact, .tools, .experience, .education{
+    width: 40%;
+}
+
+.about, .experience{
+    margin-top: 3%;
+}
+
+.image{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    justify-content: right;
+}
+
+.phone_icon{
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    color: aqua;
+}
+
+.email_icon{
+    margin-top: 8px;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.linkedin_icon{
+    margin-top: 8px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.git_icon{
+    margin-top: 8px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
